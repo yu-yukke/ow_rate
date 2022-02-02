@@ -6,7 +6,7 @@ const { Client, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-const token = 'OTA2MDY2MTg4MzkwNTI2OTk3.YYTN5Q.GGBx_gMTJVfU7FcEhd6qvLREeP4';
+const token = 'OTA2MDY2MTg4MzkwNTI2OTk3.YYTN5Q.Wg4Ec3z9-H_mOSByKgjgHSr0yqQ';
 
 // ready
 client.once('ready', () => {
