@@ -71,6 +71,11 @@ client.on('message', message => {
       name: 'ゆう',
       tag: '#3475',
       region: 'global'
+    },
+    aony: {
+      name: 'aony',
+      tag: '#11417',
+      region: 'global'
     }
   }
 
