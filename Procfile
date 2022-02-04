@@ -1,1 +1,1 @@
-web: bundle exec foreman s
+worker: node app.js
