@@ -22,7 +22,7 @@ client.on('message', message => {
       tag: '#1820',
       region: 'global'
     },
-    Shokichi: {
+    ASLEEP: {
       name: 'ASLEEP',
       tag: '#31652',
       region: 'global'
