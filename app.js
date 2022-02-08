@@ -24,7 +24,7 @@ client.on('message', message => {
     },
     ASLEEP: {
       name: 'ASLEEP',
-      tag: '#31652',
+      tag: '#31206',
       region: 'global'
     },
     REINHARDT: {
