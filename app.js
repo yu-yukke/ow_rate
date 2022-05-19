@@ -156,7 +156,13 @@ client.on('message', (message) => {
                 `勝利: **${profile.games.competitive.won}**\n` +
                 `敗北: **${profile.games.competitive.lost}**\n` +
                 `引き分け: **${profile.games.competitive.draw}**\n` +
-                `勝率: **${profile.games.competitive.win_rate}%**`,
+                `勝率: **${
+                  (profile.games.competitive.won /
+                    (profile.games.competitive.won +
+                      profile.games.competitive.lost +
+                      profile.games.competitive.draw)) *
+                  100
+                }%**`,
             },
             {
               name: '[使用ヒーロー]',
