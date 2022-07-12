@@ -159,8 +159,7 @@ client.on('message', (message) => {
                 `勝率: **${(
                   (profile.games.competitive.won /
                     (profile.games.competitive.won +
-                      profile.games.competitive.lost +
-                      profile.games.competitive.draw)) *
+                      profile.games.competitive.lost)) *
                   100
                 ).toFixed(2)}%**`,
             },
