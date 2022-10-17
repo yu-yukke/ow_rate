@@ -178,7 +178,9 @@ client.on('message', (message) => {
         message.channel.send({ embeds: [embedStats] });
       })
       .catch(() => {
-        return message.channel.send('戦績公開してくれよな！');
+        return message.channel.send(
+          'OW2になってbot動いてねーのいい加減気づけよ'
+        );
       });
   }
 });
